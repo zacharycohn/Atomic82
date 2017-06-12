@@ -151,15 +151,23 @@ section{
 }
 .vira-card .vira-card-header{
 	margin-bottom: 45px;
+
+	/*this works, but is it right? */
+	position: relative;
+	left: calc(50% - 200px);
+
+/*this works too, but doesn't seem like the right way to do it*/
+	/*margin-left: 100px; */ 
 }
 .vira-card .vira-card-header .card-icon{
 	border: 1px solid #51c2b9;
 	border-radius: 100%;
 	display: inline-block;
 	height: 120px;
-	width: 120px;
+	width: 1200px;
 	line-height: 120px;
 	position: relative;
+
 }
 .vira-card .vira-card-header .card-icon .fa{
 	margin-top: 45px;
