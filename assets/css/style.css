@@ -514,6 +514,17 @@ section{
 .contact .vira-card .vira-card-content p{
 	font-size: 18px;
 }
+
+.container-team p{
+	font-size: 21px; 
+	font-style: normal;
+	margin: 20px;
+}
+
+.row-team {
+	margin-bottom: 50px;
+}
+
 .footer{
 	background-color: #202020;
 	text-align: center;
