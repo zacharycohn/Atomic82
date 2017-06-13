@@ -160,11 +160,11 @@ section{
 	/*margin-left: 100px; */ 
 }
 .vira-card .vira-card-header .card-icon{
-	border: 1px solid #51c2b9;
+  border: 1px solid #51c2b9;
 	border-radius: 100%;
 	display: inline-block;
 	height: 120px;
-	width: 1200px;
+	width: 120px;
 	line-height: 120px;
 	position: relative;
 
