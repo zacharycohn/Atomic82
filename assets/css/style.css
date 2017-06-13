@@ -154,7 +154,7 @@ section{
 
 	/*this works, but is it right? */
 	position: relative;
-	left: calc(50% - 200px);
+	left: calc(50% - 100px);
 
 /*this works too, but doesn't seem like the right way to do it*/
 	/*margin-left: 100px; */ 
