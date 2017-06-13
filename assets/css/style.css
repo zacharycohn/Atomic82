@@ -23,7 +23,7 @@ h3{
 	font-size: 25px;
 }
 p{
-	font-size: 16px;
+	font-size: 21px;
 	font-style: italic;
 	color: #818181;
 }
@@ -442,6 +442,23 @@ section{
 	margin-bottom: 40px;
 }
 .vira-quote .author{
+	font-size: 21px;
+	margin-bottom: 40px;
+}
+.vira-quote-faucet{
+	background-image: url(../images/t_faucet.jpg);
+	/*padding: 120px 0; THIS IS DUPLICATE*/
+	color: #fff;
+	font-style: italic;
+}
+.vira-quote-faucet p{
+	font-size: 32px;
+	color: #fff;
+}
+.vira-quote-faucet .quote{
+	margin-bottom: 40px;
+}
+.vira-quote-faucet .author{
 	font-size: 21px;
 	margin-bottom: 40px;
 }
