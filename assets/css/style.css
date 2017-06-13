@@ -20,7 +20,7 @@ h2{
 	font-size: 32px;
 }
 h3{
-	font-size: 21px;
+	font-size: 25px;
 }
 p{
 	font-size: 16px;
@@ -208,7 +208,7 @@ section{
 	left: calc(50% - 22px);
 }
 .vira-card .vira-card-content p{
-	font-size: 15px;
+	font-size: 21px;
 }
 .vira-card .vira-card-content .social-icons{
 	margin-top: 30px;
