@@ -149,15 +149,20 @@ section{
 	text-align: center;
 	/*margin-bottom: 45px;*/
 }
-.vira-card .vira-card-header{
+.vira-card .vira-card-header {
 	margin-bottom: 45px;
 
 	/*this works, but is it right? */
-	position: relative;
-	left: calc(50% - 100px);
 
 /*this works too, but doesn't seem like the right way to do it*/
 	/*margin-left: 100px; */ 
+}
+
+.vira-card .vira-card-header .bio-pic{
+		position: relative;
+		left: calc(50% - 110px);
+
+
 }
 .vira-card .vira-card-header .card-icon{
   border: 1px solid #51c2b9;
