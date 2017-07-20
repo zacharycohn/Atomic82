@@ -202,7 +202,7 @@ section{
 	content: '';
 	height: 1px;
 	width: 44px;
-	background-color: #62aa94;
+/*	background-color: #62aa94; */
 	position: absolute;
 	top: 52px;
 	left: calc(50% - 22px);
@@ -339,7 +339,8 @@ section{
 }
 .menu{
 	position: relative;
-	display: inline-block;
+	display: none; /* to unhide the menu: inline-block; */
+
 }
 
 .menu:after{
@@ -581,6 +582,7 @@ section{
 .owl-theme .owl-dots .owl-dot span{
 	background-color: #51c2b9;
 	margin: 5px;
+	display: none;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
 	background-color: #51c2b9;
