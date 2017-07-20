@@ -76,7 +76,48 @@
                             <div class="intro">
                                 <h1>How safe is your water?</h1>
                                 <p>Life is complicated. Testing your water for lead shouldn't be.</p>
+
+                                <script src="https://checkout.stripe.com/checkout.js"></script>
+
+                                  <button id="customButton">Test your water today</button>
+                                    <!-- for test, replace with:  key: 'pk_test_EFegeyWKlcWrPilu5frV5V2J', -->
+                                    <!-- for live, replace with:  key: 'pk_live_L0PXcaPpyTnS0EzrZRHfkY27', -->
+                                  <script>
+                                  var handler = StripeCheckout.configure({
+                                    key: 'pk_live_L0PXcaPpyTnS0EzrZRHfkY27',
+                                    image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
+                                    locale: 'auto',
+                                    token: function(token) {
+                                      // You can access the token ID with `token.id`.
+                                      // Get the token ID to your server-side code for use.
+                                    }
+                                  });
+
+                                  document.getElementById('customButton').addEventListener('click', function(e) {
+                                    // Open Checkout with further options:
+                                    handler.open({
+                                      name: 'Test Your Water For Lead',
+                                      description: 'A lead test sampling kit',
+                                      zipCode: true,
+                                      amount: 100,
+                                      shippingAddress: true
+
+                                    });
+                                    e.preventDefault();
+                                  });
+
+                                // Close Checkout on page navigation:
+                                window.addEventListener('popstate', function() {
+                                  handler.close();
+                                });
+                                </script>
+
+
+
+
+                                <!-- OLD BUTTON
                                 <a class="btn vira-btn" href="#subscribe">Test your water today</a>
+                            -->
                             </div>
                         </div>
                     </div>
@@ -448,7 +489,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <p> Water is love is life :) </p>
+                            <p>
+                                Want to do more reading? Here are a few articles and websites related to this issue:<br>
+                            </p>
+                            <p>
+                                <a href="https://www.usatoday.com/story/news/2016/03/16/testing-assessing-safety-of-drinking-water-lead-contamination/80504058/#">USA Today: Got Lead in Your Water? It’s Not Easy to Find Out</a> | <a href="http://www.webmd.com/special-reports/lead-dangers/20170612/high-lead-test-no-one-told-her">WebMD: Her Home Showed High Lead. She Wasn’t Told.</a> | <a href="http://www.reuters.com/investigates/special-report/usa-lead-testing/">Reuters: The Thousands of Locales where Lead Poisoning is Worse than Flint</a> | <a href="https://www.epa.gov/ground-water-and-drinking-water/basic-information-about-lead-drinking-water">US EPA: Basic Information about Lead in Drinking Water</a> | <a href="https://www.cdc.gov/nceh/lead/tips/water.htm">CDC: Lead in Drinking Water</a> | <a href="http://www.mayoclinic.org/diseases-conditions/lead-poisoning/home/ovc-20275050">The Mayo Clinic: Overview on Lead Poisoning</a>
+
+                            </p>
                         </div>
                     </div>
                 </div>
