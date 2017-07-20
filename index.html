@@ -89,7 +89,6 @@
                                     key: 'pk_test_EFegeyWKlcWrPilu5frV5V2J',
                                     image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
                                     locale: 'auto',
-                                    billingAddress: true,
                                     token: function(token) {
                                       // You can access the token ID with `token.id`.
                                       // Get the token ID to your server-side code for use.
@@ -103,7 +102,9 @@
                                       description: 'A lead test sampling kit',
                                       zipCode: true,
                                       amount: 100,
-                                      shippingAddress: true
+                                      shippingAddress: true,
+                                      billingAddress: true,
+
 
                                     });
                                     e.preventDefault();
