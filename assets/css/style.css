@@ -24,7 +24,7 @@ h3{
 }
 p{
 	font-size: 21px;
-	font-style: italic;
+	font-style: normal;
 	color: #818181;
 }
 a{
@@ -196,7 +196,8 @@ section{
 }
 .vira-card .vira-card-content h3{
 	position: relative;
-	margin-bottom: 60px
+	margin-bottom: 60px;
+	/* font-style: bold; what is it if not bold?*/
 }
 .vira-card .vira-card-content h3:after{
 	content: '';
@@ -376,6 +377,11 @@ section{
 	display: table-cell;
 	vertical-align: middle;
 }
+
+.intro h1, .banner-water{
+	color: #16bace;
+}
+
 .header h1{
 	margin: 0;
 }
@@ -385,6 +391,7 @@ section{
 }
 .header p{
 	font-size: 32px;
+	font-style: italic;
 	padding-top: 0;
 	padding-bottom: 40px;
 }
@@ -553,6 +560,7 @@ section{
 	background-color: #202020;
 	text-align: center;
 	padding: 60px 0;
+	color: #fff;
 }
 .footer span{
 	color: #51c2b9;
@@ -563,7 +571,7 @@ section{
 	margin-bottom: 0;
 }
 .footer a{
-	color: #fff;
+	color: #aaa;
 }
 
 
