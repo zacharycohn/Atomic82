@@ -554,6 +554,9 @@ section{
 
 .row-team {
 	margin-bottom: 50px;
+	font-size: 21px; 
+	color: #818181;
+	font-style: normal;
 }
 
 .footer{
