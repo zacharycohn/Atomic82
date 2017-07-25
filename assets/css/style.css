@@ -26,6 +26,8 @@ p{
 	font-size: 21px;
 	font-style: normal;
 	color: #818181;
+	line-height: 175%;
+	padding: 5px;
 }
 a{
 	transition: all 0.3s ease-in-out;
@@ -196,7 +198,8 @@ section{
 }
 .vira-card .vira-card-content h3{
 	position: relative;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 	/* font-style: bold; what is it if not bold?*/
 }
 .vira-card .vira-card-content h3:after{
