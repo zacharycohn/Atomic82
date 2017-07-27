@@ -204,11 +204,11 @@ section{
 }
 .vira-card .vira-card-content h3:after{
 	content: '';
-	height: 1px;
+	height: 3px;
 	width: 44px;
-/*	background-color: #62aa94; */
+	background-color: #62aa94;
 	position: absolute;
-	top: 52px;
+	top: 68px;
 	left: calc(50% - 22px);
 }
 .vira-card .vira-card-content p{
@@ -367,7 +367,8 @@ section{
 	background-image: url(../images/1.jpg);
 	height: 100vh;
 	position: relative;
-	min-height: 659px;
+	/* 	min-height: 659px; */
+	max-height: 850px;
 }
 
 .intro-box{
