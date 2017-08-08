@@ -381,8 +381,7 @@ section{
 .intro{
 	display: table-cell;
 	vertical-align: middle;
-	padding-bottom: 100px;
-
+	padding-bottom: 200px;
 }
 
 .intro h1, .banner-water{
