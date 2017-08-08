@@ -447,6 +447,10 @@ section{
 	font-size: 16pt;
 }
 
+.comparison img{
+	max-width: 10%;
+}
+
 .container-help{
 	line-height: 40px;
 	text-align: left;
