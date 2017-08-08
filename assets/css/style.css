@@ -154,8 +154,6 @@ section{
 .vira-card .vira-card-header {
 	margin-bottom: 45px;
 
-	/*this works, but is it right? */
-
 /*this works too, but doesn't seem like the right way to do it*/
 	/*margin-left: 100px; */ 
 }
@@ -163,9 +161,12 @@ section{
 .vira-card .vira-card-header .bio-pic{
 		position: relative;
 		left: calc(50% - 110px);
-
-
 }
+
+.bio-pic{
+	max-width: 300px;
+}
+
 .vira-card .vira-card-header .card-icon{
   border: 1px solid #51c2b9;
 	border-radius: 100%;
@@ -372,9 +373,13 @@ section{
 
 }
 
+.about .payment{
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
 .intro-box{
-	height: 100vh;
-	display: table;
 	text-align: center;
 	width: 100%;
 }
@@ -425,10 +430,9 @@ section{
 .about th{
 	text-align: center;
 	font-size: 24px;
-
 }
 .about td,th{
-	padding-left: 25px;
+	padding-left: 2%;
 }
 .about tr{
   text-align: left;
@@ -438,7 +442,7 @@ section{
 	background-color: #f2f2f2;
 }
 
-.comparison{
+.about .comparison{
 	overflow-x:auto;
 	font-size: 16pt;
 }
@@ -464,8 +468,8 @@ section{
 	display: none;
 }
 .expert .section{
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 
@@ -590,6 +594,13 @@ section{
 	font-size: 21px; 
 	color: #818181;
 	font-style: normal;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.team .row{
+	max-width: 100%;
 }
 
 .footer{
