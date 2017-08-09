@@ -466,12 +466,11 @@ section{
   padding: 0;
   width: 100%;
   table-layout: auto; /*originally was fixed*/
-
+  font-size: 120%;
 }
 .comparison table caption {
   font-size: 1.5em;
-  margin: .5em 0 .75em;
-}
+  margin: .5em 0 .75em;4}
 .comparison table tr {
   background: #f8f8f8;
   border: 1px solid #ddd;
@@ -479,7 +478,7 @@ section{
 }
 .comparison table th,
 table td {
-  padding: .625em;
+  padding: .1625em;
   text-align: center;
 }
 .comparison table th {
@@ -488,7 +487,8 @@ table td {
   text-transform: uppercase;
 }
 .comparison img{
-	max-width: 25%;
+	max-width: 12%;
+
 }
 @media screen and (max-width: 600px) {
   .comparison table {
@@ -520,7 +520,7 @@ table td {
   .comparison table td {
     border-bottom: 1px solid #ddd;
     display: block;
-    font-size: 1.5em;
+/*    font-size: 1.5em;*/
     text-align: center;
   }
   .comparison table td:before {
