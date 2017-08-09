@@ -386,7 +386,8 @@ section{
 .intro{
 	display: table-cell;
 	vertical-align: middle;
-	padding-bottom: 200px;
+	padding-top: 20%;
+	padding-bottom: 20%;
 }
 
 .intro h1, .banner-water{
@@ -442,14 +443,106 @@ section{
 	background-color: #f2f2f2;
 }
 
-.about .comparison{
+/*.about .comparison{
 	overflow-x:auto;
 	font-size: 16pt;
 }
 
 .comparison img{
-	max-width: 10%;
+	max-width: 100%;
 }
+
+.comparison th, td{
+	font-size: 100%;
+}*/
+
+
+
+
+.comparison table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: auto; /*originally was fixed*/
+
+}
+.comparison table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+.comparison table tr {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+.comparison table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+.comparison table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.comparison img{
+	max-width: 25%;
+}
+@media screen and (max-width: 600px) {
+  .comparison table {
+    border: 0;
+  }
+  .comparison table caption {
+    font-size: 1.3em;
+  }
+  .comparison table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  .comparison img{
+  	max-width: 8%;
+  	text-align: right;
+  		margin-right: 0px;
+  }
+  .comparison table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  .comparison table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .comparison table td:before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .comparison table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+
+
+
+
+
 
 .container-help{
 	line-height: 40px;

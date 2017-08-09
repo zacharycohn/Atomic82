@@ -186,83 +186,91 @@
                             <div class="comparison">
 <!--                                <img src="assets/images/comparison.png" width="1000"> -->
                                 <table>
-                                    <tr>
-                                        <th></th>
-                                        <th>DIY Kits</th>
-                                        <th>Typical <br>City Government</th>
-                                        <th>Typical <br>Testing Lab</th>
-                                        <th>Testyourwater<br>forlead.com</th>
-                                    </tr>
-                                    <tr>
-                                        <td>100% online ordering</td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                    </tr>
-                                    <tr>                                        
-                                        <td>Regularly works with consumers</td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                    </tr>
-                                    <tr>                                        
-                                        <td>Delivery to your door</td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                    </tr>
-                                    <tr>                                        
-                                        <td>Testing done by regulated labs</td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                    </tr>
-                                    <tr>                                        
-                                        <td>Government certified equipment</td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                    </tr>
-                                    <tr>                                        
-                                        <td>State of the art equipment</td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                    </tr>
-                                    <tr>                                        
-                                        <td>Returns scientific report</td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                    </tr>
-                                    <tr>                                        
-                                        <td>Guaranteed results within 2 weeks</td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                    </tr>
-                                    <tr>                                        
-                                        <td>Explains what your results mean</td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                    </tr>
-                                    <tr>                                        
-                                        <td>Recommends next steps</td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/x.gif" alt="X" width="30px"></td>
-                                        <td><img src="assets/images/check.png" alt="Check" width="50px"></td>
-                                    </tr>
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col">DIY Kits</th>
+                                            <th scope="col">Typical <br>City Government</th>
+                                            <th scope="col">Typical <br>Testing Lab</th>
+                                            <th scope="col">Testyourwater<br>forlead.com</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row" data-label="">100% online ordering</td>
+                                            <td data-label="DIY Kits">
+                                                <img src="assets/images/x.gif" alt="X" >
+                                            </td>
+                                            <td data-label="Typical City Government">
+                                                <img src="assets/images/x.gif" alt="X" >
+                                            </td>
+                                            <td data-label="Typical Testing Lab"><img src="assets/images/x.gif" alt="X" ></td>
+                                            <td data-label="Testyourwaterforlead.com"><img src="assets/images/check.png" alt="Check" ></td>
+                                        </tr>
+                                        <tr>                                        
+                                            <td scope="row" data-label="">Regularly works with consumers</td>
+                                            <td data-label="DIY Kits"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                            <td data-label="Typical City Government"><img src="assets/images/x.gif" alt="X" width="30px"></td>
+                                            <td data-label="Typical Testing Lab"><img src="assets/images/x.gif" alt="X" width="30px"></td>
+                                            <td data-label="Testyourwaterforlead.com"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                        </tr>
+                                        <tr>                                        
+                                            <td scope="row">Delivery to your door</td>
+                                            <td data-label="DIY Kits"><img src="assets/images/x.gif" alt="X" width="30px"></td>
+                                            <td data-label="Typical City Government"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                            <td data-label="Typical Testing Lab"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                            <td data-label="Testyourwaterforlead.com"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                        </tr>
+                                        <tr>                                        
+                                            <td scope="row">Testing done by regulated labs</td>
+                                            <td data-label="DIY Kits"><img src="assets/images/x.gif" alt="X" width="30px"></td>
+                                            <td data-label="Typical City Government"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                            <td data-label="Typical Testing Lab"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                            <td data-label="Testyourwaterforlead.com"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                        </tr>
+                                        <tr>                                        
+                                            <td scope="row">Government certified equipment</td>
+                                            <td data-label="DIY Kits"><img src="assets/images/x.gif" alt="X" width="30px"></td>
+                                            <td data-label="Typical City Government"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                            <td data-label="Typical Testing Lab"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                            <td data-label="Testyourwaterforlead.com"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                        </tr>
+                                        <tr>                                        
+                                            <td scope="row">State of the art equipment</td>
+                                            <td data-label="DIY Kits"><img src="assets/images/x.gif" alt="X" width="30px"></td>
+                                            <td data-label="Typical City Government"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                            <td data-label="Typical Testing Lab"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                            <td data-label="Testyourwaterforlead.com"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                        </tr>
+                                        <tr>                                        
+                                            <td scope="row">Returns scientific report</td>
+                                            <td data-label="DIY Kits"><img src="assets/images/x.gif" alt="X" width="30px"></td>
+                                            <td data-label="Typical City Government"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                            <td data-label="Typical Testing Lab"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                            <td data-label="Testyourwaterforlead.com"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                        </tr>
+                                        <tr>                                        
+                                            <td scope="row">Guaranteed results within 2 weeks</td>
+                                            <td data-label="DIY Kits"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                            <td data-label="Typical City Government"><img src="assets/images/x.gif" alt="X" width="30px"></td>
+                                            <td data-label="Typical Testing Lab"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                            <td data-label="Testyourwaterforlead.com"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                        </tr>
+                                        <tr>                                        
+                                            <td scope="row">Explains what your results mean</td>
+                                            <td data-label="DIY Kits"><img src="assets/images/x.gif" alt="X" width="30px"></td>
+                                            <td data-label="Typical City Government"><img src="assets/images/x.gif" alt="X" width="30px"></td>
+                                            <td data-label="Typical Testing Lab"><img src="assets/images/x.gif" alt="X" width="30px"></td>
+                                            <td data-label="Testyourwaterforlead.com"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                        </tr>
+                                        <tr>                                        
+                                            <td scope="row">Recommends next steps</td>
+                                            <td data-label="DIY Kits"><img src="assets/images/x.gif" alt="X" width="30px"></td>
+                                            <td data-label="Typical City Government"><img src="assets/images/x.gif" alt="X" width="30px"></td>
+                                            <td data-label="Typical Testing Lab"><img src="assets/images/x.gif" alt="X" width="30px"></td>
+                                            <td data-label="Testyourwaterforlead.com"><img src="assets/images/check.png" alt="Check" width="50px"></td>
+                                        </tr>
+                                    </tbody>
                                 </table>
 
 
