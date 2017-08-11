@@ -384,7 +384,6 @@ section{
 	width: 100%;
 }
 .intro{
-	display: table-cell;
 	vertical-align: middle;
 	padding-top: 20%;
 	padding-bottom: 20%;
