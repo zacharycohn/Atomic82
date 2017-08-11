@@ -455,13 +455,23 @@ section{
 .comparison th, td{
 	font-size: 100%;
 }*/
-.paymenthead h2 {
-	margin-bottom: 0px;
+
+.payment p{
+	text-align: left;
+	font-size: 1.25em;
 }
+
 .features p{
 	font-size: 14px;
 	text-align: left;
-	padding-left: 20%;
+}
+.features img{
+	padding-right: 10%;
+	max-width: 20%;
+	margin: 0px;
+	display: inline-block;
+
+
 }
 
 
