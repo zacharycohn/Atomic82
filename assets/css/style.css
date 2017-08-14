@@ -487,24 +487,28 @@ section{
 }
 .comparison table caption {
   font-size: 1.5em;
-  margin: .5em 0 .75em;4}
+  margin: .5em 0 .75em;
+}
+
 .comparison table tr {
   background: #f8f8f8;
   border: 1px solid #ddd;
   padding: .35em;
 }
-.comparison table th,
-table td {
-  padding: .1625em;
+.comparison table td {
+  /* padding: .1625em; */
+  padding: .01625em;
   text-align: center;
 }
 .comparison table th {
   font-size: .85em;
   letter-spacing: .1em;
   text-transform: uppercase;
+	text-align: center;
+	padding: 1em;
 }
 .comparison img{
-	max-width: 12%;
+	max-width: 10%;
 
 }
 @media screen and (max-width: 600px) {
@@ -532,7 +536,7 @@ table td {
   .comparison table tr {
     border-bottom: 3px solid #ddd;
     display: block;
-    margin-bottom: .625em;
+    margin-bottom: 1.625em;
   }
   .comparison table td {
     border-bottom: 1px solid #ddd;
@@ -540,7 +544,6 @@ table td {
 /*    font-size: 1.5em;*/
     text-align: center;
 /*  font-weight: bold; */
-
   }
   .comparison table td:before {
     /*
@@ -549,7 +552,6 @@ table td {
     */
     content: attr(data-label);
     float: left;
-    text-transform: uppercase;
   }
   .comparison table td:last-child {
     border-bottom: 0;
@@ -601,9 +603,11 @@ table td {
 .vira-quote .quote{
 	margin-bottom: 40px;
 }
-.vira-quote .author{
-	font-size: 21px;
+.vira-quote .author a{
+	font-size: 24px;
 	margin-bottom: 40px;
+	color: #c5d9f9;
+
 }
 .vira-quote-faucet{
 	background-image: url(../images/t_faucet.jpg);
@@ -611,6 +615,7 @@ table td {
 	color: #fff;
 	font-style: italic;
 }
+
 .vira-quote-faucet p{
 	font-size: 32px;
 	color: #fff;
@@ -618,9 +623,11 @@ table td {
 .vira-quote-faucet .quote{
 	margin-bottom: 40px;
 }
-.vira-quote-faucet .author{
-	font-size: 21px;
+.vira-quote-faucet .author a{
+	font-size: 24px;
 	margin-bottom: 40px;
+	color: #c5d9f9;
+
 }
 
 .watch{
