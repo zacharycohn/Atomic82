@@ -527,7 +527,7 @@ table td {
   .comparison img{
   	max-width: 8%;
   	text-align: right;
-  		margin-right: 0px;
+  	margin-right: 0px;
   }
   .comparison table tr {
     border-bottom: 3px solid #ddd;
@@ -539,6 +539,8 @@ table td {
     display: block;
 /*    font-size: 1.5em;*/
     text-align: center;
+/*  font-weight: bold; */
+
   }
   .comparison table td:before {
     /*
@@ -547,7 +549,6 @@ table td {
     */
     content: attr(data-label);
     float: left;
-    font-weight: bold;
     text-transform: uppercase;
   }
   .comparison table td:last-child {
