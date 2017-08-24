@@ -457,13 +457,13 @@ section{
 	font-size: 100%;
 }*/
 
-.payment p{
+.payment p {
 	text-align: left;
 	font-size: 1.35em;
 }
 
-.features p{
-	font-size: 1.1em;
+.features p {
+	font-size: 1.2em;
 	text-align: left;
 }
 .features img{
@@ -471,9 +471,14 @@ section{
 	max-width: 20%;
 	margin: 0px;
 	display: inline-block;
-
-
 }
+
+.payment-works h3 {
+	text-align: left;
+	margin-bottom: .1em;
+	margin-top: 2em;
+}
+
 
 
 .comparison table {
