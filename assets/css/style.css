@@ -466,6 +466,12 @@ section{
 	font-size: 1.2em;
 	text-align: left;
 }
+
+.features h3 {
+	text-align: left;
+	margin-top: 2em;
+}
+
 .features img{
 	padding-right: 10%;
 	max-width: 20%;
